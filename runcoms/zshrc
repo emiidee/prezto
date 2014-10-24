@@ -18,6 +18,9 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 # Customize to your needs...
 
+# Sublime
+alias subl="'/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl'"
+
 # Git aliases:
 alias gs='git status'
 alias ga='git add'
