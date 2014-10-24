@@ -17,3 +17,29 @@ export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 export PATH="/usr/local/heroku/bin:$PATH"
 
 # Customize to your needs...
+
+# Git aliases:
+alias gs='git status'
+alias ga='git add'
+alias gb='git branch'
+alias gc='git commit'
+alias gd='git diff'
+alias gdl='git diff HEAD HEAD~1'
+alias goto='git checkout'
+alias gh='git hist'
+alias gha='git hist --all'
+
+# Brew aliases
+alias bup='brew update'
+alias bug='brew upgrade'
+alias bupg='brew update && brew upgrade'
+
+# Servering aliases
+alias serve="python -m SimpleHTTPServer"
+
+# Node aliases
+alias node6="node --harmony --use-strict"
+alias ni="npm install"
+alias nig="npm install -g"
+alias nis="npm install --save"
+alias nisd="npm install --save-dev"
